@@ -1,12 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import NgheNhac from './Demo4/NgheNhac';
+import ChonAnh from './Demo4/ChonAnh';
+import ChupAnh from './Demo4/ChupAnh';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <NgheNhac/>
+    // <ChonAnh/>
+    <ChupAnh/>
   );
 }
 
