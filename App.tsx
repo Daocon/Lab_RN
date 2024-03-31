@@ -5,13 +5,15 @@ import ChonAnh from './Demo4/ChonAnh';
 import ChupAnh from './Demo4/ChupAnh';
 import GD from './Demo5/viewApp';
 import AppDemo5 from './Demo5/AppDemo5';
+import AppDemo6 from './Demo6/AppDemo6';
 
 export default function App() {
   return (
     // <NgheNhac/>
     // <ChonAnh/>
     // <ChupAnh/>
-    <AppDemo5/>
+    // <AppDemo5/>
+    <AppDemo6/>
   );
 }
 
